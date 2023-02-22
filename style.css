@@ -1,0 +1,50 @@
+*{
+    font-family:'Times New Roman';
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+/* 
+------------------------------
+Container nu 1 in row
+------------------------------*/
+.perent{
+    width: 100%;
+    height: 500px;
+    border: 20px solid black;
+    background-color: antiquewhite;
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ .item1 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    margin: 1px;
+    align-self: center;
+}
+
+/*--------------------------------
+Container2 in colum
+--------------------------------*/
+.parent2 {
+    height: 300px;
+    
+    border: 20px solid black;
+    background-color: rgb(215, 206, 196);
+    display: flex;
+    flex-direction: column;
+    
+
+
+}
+.item2 {
+    width: 10rem;
+    height: 10rem;
+    background-color: aquamarine;
+    margin: 1px;
+}
